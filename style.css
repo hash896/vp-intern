@@ -46,7 +46,9 @@ section.abc{
 .content{
 	transform:translate(0,-50%);
 	text-align:center;
+	margin:0 auto;
 	position:absolute;
+	max-width:640px;
 	top:50%;
 	left:0;
 	right:0;
@@ -78,7 +80,16 @@ button.btn{
 	border-radius:50px;
 }
 
-
+section.section-block{
+	float:left;
+	width:100%;
+	
+}
+.container{
+	max-width:1170px;
+	margin:0 auto;
+	width:100%;
+}
 
 
 
