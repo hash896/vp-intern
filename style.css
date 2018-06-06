@@ -2,6 +2,12 @@ body{
 	margin:0;
 	padding:0;
 }
+body *{
+	font-family:sans-serif;
+}
+div{
+	display:block;
+}
 header{
 	width:100%;
 	height:60px;
@@ -24,6 +30,11 @@ ul.navigation{
 ul.navigation li{
 	float:left;
 	list-style:none;
+}
+ul.navigation li a:hover{
+	background:cyan;
+	color:#000;
+	font-weight:bold;
 }
 ul.navigation li a{
 	color:#fff;
@@ -86,13 +97,28 @@ section.section-block{
 	
 }
 .container{
-	max-width:1170px;
+	max-width:980px;
 	margin:0 auto;
 	width:100%;
 }
-
-
-
+.section-block h2{
+	float:left;
+	width:100%;
+	margin:0 0 15px 0;
+	text-align:center;
+	font-size:28px;
+}
+.section-block p{
+	float:left;
+	width:100%;
+	margin:0 0 10px 0;
+	text-align:center;
+	font-size:14px;
+}
+.blocks{
+	float:left;
+	width:100%;
+}
 
 
 
