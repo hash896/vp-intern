@@ -277,6 +277,8 @@ section.address{
 }
 .ab ul li a:hover{
 	color:orange;
+	text-decoration:underline;
+	font-weight:bold;
 }
 footer{
 	width:100%;
