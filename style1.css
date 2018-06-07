@@ -1,0 +1,289 @@
+body{
+	margin:0;
+	padding:0;	
+}
+body *{
+	font-family:sans-serif;
+	box-sizing:border-box;
+}
+div{
+	display:block;
+}
+header{
+	width:100%;
+	height:60px;
+	background:black;
+}
+.head1{
+	max-width:1170px;
+	height:100%;
+	margin:0 auto;
+}
+.logo img{
+	padding:10px 0;
+	float:left;
+}
+ul.navigation{
+	float:right;
+	margin:0;
+	padding:0;
+}
+ul.navigation li{
+	float:left;
+	list-style:none;
+}
+ul.navigation li a:hover{
+	background:cyan;
+	color:#000;
+	font-weight:bold;
+}
+ul.navigation li a{
+	color:#fff;
+	text-decoration:none;
+	font-size:14px;
+	padding:25px 15px;
+	float:left;
+}
+
+section.abc{
+	background-image:url('body1.jpg');
+	background-repeat:no-repeat;
+	background-size:100%;
+	height:640px;
+	width:100%;
+	padding:0;
+	margin:0;
+	position:relative;
+}
+.content{
+	transform:translate(0,-50%);
+	text-align:center;
+	margin:0 auto;
+	position:absolute;
+	max-width:640px;
+	top:50%;
+	left:0;
+	right:0;
+}
+.content h1{
+	padding-left:0px;
+	width:100%;
+	color:#fff;
+	font-size:32px;
+	margin:0 0 20px 0;
+	text-align:center;
+	text-transform:uppercase;
+	
+}
+.content p{
+	float:left;
+	width:100%;
+	color:#fff;
+	text-align:center;
+	margin:0 0 20px 0;
+	font-size:18px;
+}
+button.btn{
+	float:none;
+	width:auto;
+	background:#fff;
+	border:1px solid #fff;
+	font-size:14px;
+	padding:6px 20px;
+	border-radius:50px;
+}
+
+section.section-block{
+	float:left;
+	width:100%;
+	height:100%;
+	padding:80px 0 80px 0;
+	background:#f2f2f2;
+}
+.container{
+	max-width:980px;
+	margin:0 auto;
+	width:100%;
+	background:#fff;
+}
+.section-block h2{
+	float:left;
+	width:100%;
+	margin:0 0 15px 0;
+	text-align:center;
+	font-size:28px;
+}
+.section-block p{
+	float:left;
+	width:100%;
+	margin:0 0 10px 0;
+	text-align:center;
+	font-size:14px;
+	padding-bottom:50px;
+}
+.blocks{
+	width:0 auto;
+	margin-left:-15px;
+	margin-right:-15px;
+}
+
+.blocks .block-list{
+	float:left;
+	width:33.3%;
+	height:100%;
+	text-align:center;
+	padding:0 15px;
+}
+.blocks .block-list span.icons{
+	width:60px;
+	height:60px;
+	border-radius:50%;
+	background-color:blue;
+	float:none;
+	display:inline-block;
+}
+.block-list h5{
+	margin:10px;
+	font-size:22px;
+	text-transform:uppercase;
+
+
+}
+.block-list p{
+	float:left;
+	width:100%;
+	font-size:14px;
+	margin:0 0 10px 0;
+	opacity:0.8;
+	padding:0;
+}
+.block-list a.anchor-btn{
+	display:inline-block;
+	background:red;
+	color:#fff;
+	border-radius:50px;
+	padding:8px 20px;
+	font-size:12px;
+	border:1px solid red;
+	text-decoration:none;
+}
+
+.bg{
+	float:left;
+	width:100%;
+	background:yellow;
+	padding:30px;
+	border-radius:10px;
+}
+section.contact{
+	background:cyan;
+	height:100%;
+}
+.container1{
+	max-width:980px;
+	margin:0 auto;
+	width:100%;
+}
+.container1 form{
+	width:480px;
+	margin-left:25%;
+	margin-right:25%;
+	padding-top:30px;
+	padding-bottom:30px;
+}
+.container1 p{
+	font-size:28px;
+	font-weight:bold;
+	text-align:center;
+	padding-top:30px;
+}
+input[type=text]{
+	width:100%;
+	height:48px;
+	margin-bottom:20px;
+	border:1px solid cyan;
+	padding-left:10px;
+}
+input[type=email]{
+	width:100%;
+	height:48px;
+	margin-bottom:20px;
+	border:1px solid cyan;
+	padding-left:10px;
+}
+.container1 select{
+	width:100%;
+	height:48px;
+	margin-bottom:20px;
+	border:1px solid cyan;
+	padding-left:10px;
+}
+.container1 textarea{
+	width:100%;
+	height:100px;
+	margin-bottom:20px;
+	border:1px solid cyan;
+	padding:10px 0 0 10px;
+}
+button.btn1{
+	float:none;
+	width:auto;
+	height:40px;
+	color:#fff;
+	background:green;
+	border:1px solid green;
+	font-size:14px;
+	padding:6px 20px;
+	border-radius:5px;
+}
+section.address{
+	background:#2f363d;
+	padding-top:10px;
+	padding-bottom:10px;
+	
+}
+.container2{
+	max-width:980px;
+	margin:0 auto;
+	width:100%;
+}
+.ablock{
+	width:0 auto;
+	margin-left:-15px;
+	margin-right:-15px;
+	height:200px;
+}
+.ablock .ab{
+	float:left;
+	width:33.3%;
+	height:100%;
+	padding:0 15px;
+}
+.ab h4{
+	padding-left:38px;
+	font-size:18px;
+	color:#fff;
+}
+.ab ul li{
+	list-style:none	;
+	padding:10px 0 10px 0;
+	color:#ccc;
+	opacity:0.8;
+}
+.ab ul li a{
+	color:#ccc;
+	text-decoration:none;
+	opacity:0.8;
+}
+.ab ul li a:hover{
+	color:orange;
+}
+footer{
+	width:100%;
+	height:60px;
+	color:#fff;
+	background:#000;
+	text-align:center;
+	padding-top:5px;
+	font-size:18px;
+}
